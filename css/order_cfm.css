@@ -1,0 +1,37 @@
+.content
+{
+  width: 100%;
+}
+.content_top
+{
+  width: 100%;
+  border: 1px solid;
+}
+.content_top p
+{
+  float: left;
+}
+.content_top input[type="textbox"]
+{
+  float: left;
+}
+.content_bottom
+{
+
+}
+.content_bottom table
+{
+	border-collapse: collapse;
+	border: 1px solid;
+}
+#item_name
+{
+	width: 200px;
+}
+.content_bottom td
+{
+	width: 50px;
+	border-left: 1px solid;
+	padding: 0.5em;
+
+}
