@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ピザ注文</title>
+	<link rel="stylesheet" type="text/css" href="../css/pizza_order.css">
+</head>
+<body>
+	<div class="content">
+		<div class="content_left">
+			<div class="content_left_top">
+				<div class="item_search">
+					<from>
+						<p><b>商品検索</b></p>
+						<p>
+						<input type="checkbox" id="pizza" value="1">ピザ
+						<input type="checkbox" id="drank" value="2">ドリンク
+						<input type="checkbox" id="side" value="3">サイド
+						<input type="checkbox" id="set" value="4">セット
+						</p>
+					</form>
+				</div>
+			</div>
+			<div class="content_left_bottom">
+				<div class="item_view">
+					<p><b>商品名</b></p>
+					<ul>
+						<li>ピザ</li>
+						<li>ピザ</li>
+						<li>ピザ</li>
+						<li>ピザ</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="content_right">
+			<div class="content_right_top">
+				<div class="item_add">
+					<p>商品名
+					<input type="text" name="name" size="30" maxlength="20">
+					<br>フリガナ</p>
+					<from>
+						<p>サイズ
+						<input type="checkbox" name="S" value="1">S
+						<input type="checkbox" name="M" value="2">M
+						<input type="checkbox" name="L" value="3">L
+						</p>
+						<input type="button" value="カートに追加">
+					</form>
+				</div>
+			</div>
+			<div class="content_right_center">
+				<div class="cart">
+					<p>カート</P>
+					<ul class="menu">
+						<li id="menu_item_name">商品名</li>
+						<li>サイズ</li>
+						<li>個数</li>
+					</ul>
+					<table>
+						<tr>
+							<td id="item_name">ピザ</td>
+							<td>ピザ</td>
+							<td>ピザ</td>
+							<input type="button" name="delete" value="削除">
+							<b>1.</b>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="content_right_bottom">
+				<div class="next">
+					<input type="button" name="name" value="確認">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

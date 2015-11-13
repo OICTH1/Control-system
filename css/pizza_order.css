@@ -1,0 +1,191 @@
+.content
+{
+	width: 98vw;
+	height: 98vh;
+}
+.content_left
+{
+	float: left;
+	width: 49vw;
+	height: 99vh;
+}
+.content_left_top
+{
+	float: left;
+	margin: 0 4.5vw;
+	width: 40vw;
+	height: 20vh;
+}
+.item_search
+{
+	width: 37vw;
+	height: 17vh;
+	margin: 1.5vh auto;
+	border-style: solid;
+	border-width: 1px;
+}
+.item_search p
+{
+	font-size: 20px;
+	padding: 1vh 0 1vh 2vw;
+}
+.content_left_bottom
+{
+	float: left;
+	margin: 0 4.5vw;
+	width: 40vw;
+	height: 79vh;
+}
+.item_view
+{
+	width: 37vw;
+	height: 76vh;
+	margin: 1.5vh auto;
+	border-style: solid;
+	border-width: 1px;
+}
+.item_view p
+{
+	font-size: 20px;
+	padding-bottom: 1vh;
+	margin-bottom: 0;
+	text-align: center;
+	border-bottom: solid;
+	border-width: 1px;
+}
+
+.item_view ul
+{
+	margin: 0;
+	padding: 0;
+	overflow-y: scroll;
+}
+.item_view li {
+	margin-left:0px;
+	list-style-type: none;
+	text-align: center;
+	border-bottom: solid;
+	border-width: 1px;
+	padding: 1vh 0;
+}
+.content_right
+{
+	float: left;
+	width: 49vw;
+	height: 99vh;
+}
+.content_right_top
+{
+	float: left;
+	margin: 0 4.5vw;
+	width: 40vw;
+	height: 20vh;
+}
+.item_add
+{
+	width: 37vw;
+	height: 17vh;
+	margin: 1.5vh auto;
+	border-style: solid;
+	border-width: 1px;
+}
+.item_add p
+{
+	font-size: 20px;
+	padding: 0 0 0 2vw;
+}
+.item_add input[type="text"]
+{
+	height: 15pt;
+	margin-left: 2vw;
+}
+.item_add input[type="button"]
+{
+	float: right;
+	margin-right: 3vw;
+	font-size: 20px;
+}
+.content_right_center
+{
+	float: left;
+	margin: 0 4.5vw;
+	width: 40vw;
+	height: 69vh;
+}
+.cart
+{
+	width: 37vw;
+	height:66vh;
+	margin: 1.5vh auto;
+	border-style: solid;
+	border-width: 1px;
+}
+.cart p
+{
+	font-size: 20px;
+	padding-left: 1.5vw;
+}
+.menu
+{
+	padding-left: 3vw;
+}
+#menu_item_name
+{
+	padding-right: 9.5vw;
+}
+.cart ul.menu li
+{
+	display: inline;
+	padding-right: 1.2vw;
+}
+.cart table
+{
+	border-collapse: collapse;
+	border: 1px solid;
+}
+#item_name
+{
+	width: 200px;
+}
+.cart td
+{
+	width: 50px;
+	border-left: 1px solid;
+	padding: 0.5em;
+
+}
+.cart input[type="button"]
+{
+	float: right;
+	font-size: 20px;
+	margin: 0.3vh 0.4vw 0 0;
+}
+.cart b
+{
+		float: left;
+		font-size: 20px;
+		margin: 0.7vh 0.3vw 0 0.3vw;
+}
+.item_name
+{
+	width: 150px;
+}
+.content_right_bottom
+{
+	float: left;
+	margin: 0 4.5vw;
+	width: 40vw;
+	height: 10vh;
+}
+.next
+{
+	width: 37vw;
+	height: 7vh;
+	margin: 1.5vh auto;
+}
+.next input[type="button"]
+{
+	float: right;
+	font-size: 40px;
+	margin-right: 5vw;
+}

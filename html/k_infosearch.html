@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>会員情報検索</title>
+	<link rel="stylesheet" type="text/css" href="../css/k_infosearch.css">
+</head>
+<body>
+	<div class="header">
+		<div class="leftheader">
+			<b>会員情報検索</b>
+		</div>
+		<div class="rightheader">
+			<b>戻る</b>
+		</div>
+	</div>
+	<div class="content">
+		<div class="search">
+			<div class="s_menu">
+				<div class="s_menuleft">
+					<p>検索条件</p>
+					<form>
+						<table>
+							<tr>
+								<td align="right"><b>名前　　<br>フリガナ</b></td>
+								<td><input type="text" name="name" size="30" maxlength="20"></td>
+								<br>
+							</tr>
+							<tr>
+			    				<td align="right"><b> 郵便番号</b></td>
+			    				<td><input type="text"  size="3" maxlength="3"> - 
+			    					<input type="text"  size="4" maxlength="4">
+			    				</td>
+			  				</tr>
+			 				<tr>
+			    				<td align="right"><b> 電話番号</b></td>
+			    				<td><input type="text" size="4" maxlength="4"> - 
+			    					<input type="text" size="4" maxlength="4"> -
+			    					<input type="text" size="4" maxlength="4">
+			    				</td>
+			  				</tr>
+			  				<tr>
+			    				<td align="right"><b> メールアドレス</b></td>
+			    				<td><input type="text"  size="30" maxlength="30">
+			    				</td>
+			  				</tr>
+		  				</table>
+	  				</form>
+  				</div>
+  				<div class="s_menuright">
+  					<input type="button" value="検索">
+  				</div>
+			</div>
+		</div>
+		<div class="result">
+			<table>
+				<tr>
+					<td>氏名</td>
+					<td>電話番号</td>
+					<td>住所</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>

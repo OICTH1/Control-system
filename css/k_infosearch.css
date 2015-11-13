@@ -1,0 +1,93 @@
+
+.header
+{
+	height: 10vh;
+	width: 98vw;
+}
+.leftheader
+{
+	float: left;
+	width: 49vw;
+	height: 10vh;
+}
+.leftheader b
+{
+	font-size: 45px;
+	margin: 10vh 30px
+}
+.rightheader
+{
+	float: left;
+	width: 49vw;
+	height: 10vh;
+}
+.rightheader b
+{
+	float: right;
+	font-size: 24px;
+	margin-right: 10px;
+	padding: 10px;
+	border-style: solid;
+	border-width: 2px
+}
+.content
+{
+	height: 79vh;
+}
+.search
+{
+	height: 32vh;
+}
+.s_menu
+{
+	height: 30vh;
+	margin: 0 auto;
+	border-style: solid;
+	border-width: 1px
+}
+.s_menuleft
+{
+	float: left;
+	width: 65.5vw;
+	height: 30vh;
+}
+.s_menuleft p
+{
+	font-size: 30px;
+	line-height: 15pt;
+}
+.s_menuleft table
+{
+	border : 0;
+}
+.s_menuleft td
+{
+	font-size: 30px;
+}
+.s_menuleft input[type="text"]
+{
+	height: 25px;
+	font-size: 20px
+}
+.s_menuright
+{
+	float: left;
+	width: 24.5vw;
+	height: 30vh;
+}
+.s_menuright input
+{
+	font-size: 35px;
+	margin-top: 25vh;
+
+}
+.result
+{
+	height: 39vh;
+}
+.result
+{
+	height: 38vh;
+	border-style: solid;
+	border-width: 1px
+}
