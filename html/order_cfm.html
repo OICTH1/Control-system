@@ -8,21 +8,53 @@
   <body>
     <div class="content">
       <div class="content_top">
-        <p>注文日</p>
-        <input type="textbox" name="dairy">
-      </div>
-      <div class="content_center">
-
-      </div>
-      <div class="content_bottom">
         <table>
           <tr>
-            <td id="item_name">ピザ</td>
+            <td id="label"><b>注文日</b></td>
+            <td><input type="textbox" name="name" size="10" maxlength="10"></td>
+          </tr>
+          <tr>
+            <td id="label"><b>注文者</b></td>
+            <td><input type="textbox" name="name" size="10" maxlength="10"></td>
+          </tr>
+          <tr>
+              <td id="label"><b> 郵便番号</b></td>
+              <td><input type="textbox"  size="3" maxlength="3"> <b>-</b>
+                <input type="textbox"  size="4" maxlength="4">
+              </td>
+            </tr>
+            <tr>
+              <td id="label"><b> 住所</b></td>
+              <td><input type="textbox"  size="30" maxlength="30">
+              </td>
+            </tr>
+          </table>
+      </div>
+      <div class="content_center">
+        <table>
+          <tr>
+            <td id="item_name">商品名</td>
+            <td>サイズ</td>
+            <td>個数</td>
+            <td>金額</td>
+          </tr>
+          <tr>
             <td>ピザ</td>
-            <td>ピザ</td>
-            <td>ピザ</td>
+            <td><select name="size">
+              <option value="S">S</option>
+              <option value="M">M</option>
+              <option value="L">L</option>
+            </select></td>
+            <td><input type="textbox" value="1"></td>
+            <td id="money">\600</td>
           </tr>
         </table>
+        <b>合計金額<input type="textbox" size="5">円</b>
+      </div>
+      <div class="content_bottom">
+        <input type="button" name="name" value="再編集">
+        <input type="button" name="name" value="キャンセル">
+        <input type="button" name="name" value="注文">
       </div>
     </div>
   </body>
