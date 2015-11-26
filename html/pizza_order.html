@@ -23,13 +23,18 @@
 			</div>
 			<div class="content_left_bottom">
 				<div class="item_view">
-					<p><b>商品名</b></p>
-					<ul>
-						<li>ピザ</li>
-						<li>ピザ</li>
-						<li>ピザ</li>
-						<li>ピザ</li>
-					</ul>
+					<table border="1"rules="rows">
+						<thead class="table_head">
+							<tr>
+								<th>商品名</th>
+							</tr>
+						</thead>
+						<tbody class="table_scroll">
+							<tr>
+								<td>ピザ</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 		</div>
@@ -52,20 +57,22 @@
 			<div class="content_right_center">
 				<div class="cart">
 					<p>カート</P>
-					<ul class="menu">
-						<li id="menu_item_name">商品名</li>
-						<li>サイズ</li>
-						<li>個数</li>
-					</ul>
-					<table>
-						<tr>
-							<td id="item_name">ピザ</td>
-							<td>ピザ</td>
-							<td>ピザ</td>
-							<input type="button" name="delete" value="削除">
-							<b>1.</b>
-						</tr>
-					</table>
+						<table rules="rows" cellpadding="10">
+							<thead class="table_head">
+								<tr>
+									<th id="item_name">商品名</th>
+									<th>個数</th>
+									<th>サイズ</th>
+								</tr>
+							</thead>
+							<tbody class="table_scroll">
+								<tr>
+									<td id="item_name">ピザ</td>
+									<td>1</td>
+									<td>S</td>
+								</tr>
+							</tbody>
+						</table>
 				</div>
 			</div>
 			<div class="content_right_bottom">
