@@ -1,14 +1,20 @@
+
+body,div{
+  box-sizing: border-box;
+}
+
 body
 {
   width: 1000px;
   height: 900px;
   margin: auto;
+  padding: 10px 5px;
 }
 .content
 {
-  width: 990px;
+  width: auto;
   height: 890px;
-  margin: 10px; auto;
+  padding: 0 5px;
 }
 .content_top
 {
@@ -66,11 +72,14 @@ tbody.table_scroll {
 	overflow-y: auto;
 	height: 550px;
 }
+
+
 td,th{
   border-collapse: collapse;
 	text-align: center;
 	width: 200px;
   font-size: 20px;
+  padding: 10px 0;
 }
 #item_name
 {
