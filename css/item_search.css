@@ -1,15 +1,27 @@
+
+body,div{
+  box-sizing: border-box;
+}
+
 body
 {
   width: 1000px;
   height: 990px;
   margin: auto;
+  padding: 10px 5px;
 }
 .content
 {
+<<<<<<< HEAD
   width: 990px;
   height: 980px;
   margin: auto;
   padding: 5px;
+=======
+  width: auto;
+  height: 890px;
+  padding: 0 5px;
+>>>>>>> 6f3f8095bd4c0eb4772948b72eecb5814ecd7134
 }
 .content_top
 {
@@ -69,11 +81,14 @@ tbody.table_scroll {
 	overflow-y: auto;
 	height: 550px;
 }
+
+
 td,th{
   border-collapse: collapse;
 	text-align: center;
 	width: 200px;
   font-size: 20px;
+  padding: 10px 0;
 }
 #item_name
 {
