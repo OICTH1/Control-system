@@ -117,7 +117,11 @@ body
 .cart td,th{
 	text-align: center;
 	width:440px;
-  font-size: 30px;
+  font-size: 20px;
+}
+#number
+{
+	width: 60px;
 }
 .content_right_bottom
 {
