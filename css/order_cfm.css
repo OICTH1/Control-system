@@ -45,7 +45,7 @@ body
 .content_center
 {
   width: 990px;
-  height: 450px;
+  height: 350px;
   margin: 30px auto;
   float: left;
 }
@@ -66,24 +66,21 @@ tbody.table_scroll {
 	width: 200px;
   font-size: 30px;
 }
-.content_center b
-{
-  float: right;
-  font-size: 30px;
-  border-bottom: 1px solid;
-  margin: 20px 20px;
-}
 .content_bottom
 {
   width: 990px;
-  height: 150px;
+  height: 250px;
   margin: auto;
   float: left;
+}
+.content_bottom p
+{
+  float: right;
+  font-size: 30px;
 }
 .content_bottom input[type="button"]
 {
   float: left;
   margin: 5px 90px;
-
   font-size: 40px
 }

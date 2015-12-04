@@ -10,6 +10,10 @@ body
   height: 890px;
   margin: auto;
 }
+.k_name
+{
+  font-size: 30px;
+}
 .content p
 {
   font-size: 30px;
