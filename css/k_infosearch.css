@@ -1,88 +1,88 @@
 body
 {
   width: 1000px;
-  height: 900px;
+  height: 1000px;
   margin: auto;
+  padding: 5px
+}
+.header
+{
+  width: 990px;
+  height: 90px;
+  padding: 5px;
+}
+.title
+{
+  font-size: 35px;
+  float: left;
+  margin-left: 20px;
+}
+.back
+{
+  float: right;
+  font-size: 30px;
+  margin-right: 20px;
+}
+.back p
+{
+  padding: 5px;
+  border: 1px solid;
 }
 .content
 {
-	width: 990px;
-	height: 850px;
-	margin: auto;
+  width: 990px;
+  height: 890px;
+  padding: 5px;
+  margin: auto;
+}
+.content_top
+{
+  width: 980px;
+  height: 290px;
+  padding: 5px;
+  margin: auto;
+  float: left;
 }
 .search
 {
-	width: 990px;
-	height: 400px;
-	margin: auto;
+  width: 968px;
+  height: 278px;
+  padding: 5px;
+  margin: auto;
+  border: 1px solid;
 }
-.s_menu
+.content_bottom
 {
-	width: 980px;
-	height: 390px;
-	margin: auto;
-	padding-left: 20px;
-	border: 1px solid;
-}
-.s_menuleft
-{
-	width: 700px;
-	height: 380px;
-	float: left;
-}
-.s_menuleft p
-{
-	font-size: 30px;
-}
-.s_menuleft td
-{
-	font-size: 30px;
-	padding-bottom: 20px;
-}
-.s_menuleft input[type="text"]
-{
-  font-size: 20px;
-}
-.s_menuright
-{
-	width: 280px;
-	height: 380px;
-	float: left;
-}
-.s_menuright input[type="button"]
-{
-	float: right;
-	font-size: 40px;
-	margin: 300px 100px 0 0;
+  width: 980px;
+  height: 580px;
+  padding: 5px;
+  margin: auto;
+  float: left;
 }
 .result
 {
-	width: 990px;
-	height: 450px;
-	margin: auto;
+  width: 968px;
+  height: 570px;
+  padding: 5px;
+  margin: auto;
+}
+.result table
+{
+  width: 968px;
+  height: 568px;
+  margin: auto;
+  border: 1px solid;
 }
 thead.table_head,tbody.table_scroll{
 	display: block;
 }
 tbody.table_scroll {
 	overflow-y: auto;
-	height: 500px;
+	height: 510px;
 }
 .result td,th{
   border-collapse: collapse;
 	text-align: center;
 	width: 245px;
-  font-size: 30px;
-}
-#detail
-{
-  width: 125px;
-}
-#address
-{
-  width:400px;
-}
-.result input[type="button"]
-{
   font-size: 30px;
 }

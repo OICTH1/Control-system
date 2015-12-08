@@ -3,9 +3,26 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../css/order_cfm.css">
+    <link rel="stylesheet" href="../script/jquery/jquery-1.11.3.min.js">
+    <script type="text/javascript">
+
+    </script>
     <title>注文確認</title>
   </head>
   <body>
+    <div class="header">
+      <div class="title">
+        <p>注文確認</p>
+      </div>
+      <div class="return">
+        <div class="top">
+          <p>トップに戻る</p>
+        </div>
+        <div class="back">
+          <p>戻る</p>
+        </div>
+      </div>
+    </div>
     <div class="content">
       <div class="content_top">
         <table>
@@ -45,13 +62,13 @@
               <td id="item_name">ピザ</td>
               <td>1</td>
               <td id="size">S</td>
-              <td id="price">\600</td>
+              <td id="price">600</td>
             </tr>
           </tbody>
         </table>
       </div>
       <div class="content_bottom">
-        <p>合計金額600円</p><br>
+        <div class="total"></div><br>
         <p>
           <input type="button" name="name" value="再編集">
           <input type="button" name="name" value="キャンセル">

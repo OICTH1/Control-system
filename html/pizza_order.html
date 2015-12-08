@@ -4,14 +4,16 @@
 	<meta charset="utf-8">
 	<title>ピザ注文</title>
 	<link rel="stylesheet" type="text/css" href="../css/pizza_order.css">
-	<script type="text/javascript" src="../script/jquery/jquery-1.11.3.min.js"></script>
-	<script>
-		function{
-
-		}
-	</script>
 </head>
 <body>
+	<div class="header">
+		<div class="title">
+			<p>ピザ注文</p>
+		</div>
+		<div class="back">
+			<p>戻る</p>
+		</div>
+	</div>
 	<div class="content">
 		<div class="content_left">
 			<div class="content_left_top">
@@ -29,12 +31,15 @@
 			<div class="content_left_bottom">
 				<div class="item_view">
 					<table border="1"rules="rows">
-						<thead class="table_head">
+						<thead class="view_table_head">
 							<tr>
 								<th class="view">商品名</th>
 							</tr>
 						</thead>
-						<tbody class="table_scroll">
+						<tbody class="view_table_scroll">
+							<tr>
+								<td>ピザ</td>
+							</tr>
 							<tr>
 								<td>ピザ</td>
 							</tr>
@@ -62,8 +67,8 @@
 			<div class="content_right_center">
 				<div class="cart">
 					<p>カート</P>
-						<table rules="rows" cellpadding="10">
-							<thead class="table_head">
+						<table class="order_table" rules="rows" cellpadding="10">
+							<thead class="order_table_head">
 								<tr>
 									<th id="number">&nbsp;</th>
 									<th id="item_name">商品名</th>
@@ -71,9 +76,9 @@
 									<th>サイズ</th>
 								</tr>
 							</thead>
-							<tbody class="table_scroll">
+							<tbody class="order_table_scroll">
 								<tr>
-									<th id="number">1</th>
+									<td id="number">1</td>
 									<td id="item_name">ピザ</td>
 									<td>1</td>
 									<td>S</td>
@@ -83,9 +88,9 @@
 				</div>
 			</div>
 			<div class="content_right_bottom">
-				<div class="next">
-					<input type="button" name="name" value="確認">
-				</div>
+				<form class="" action="" method="post">
+					<input type="submit" name="name" value="確認">
+				</form>
 			</div>
 		</div>
 	</div>
